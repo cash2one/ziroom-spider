@@ -1,0 +1,28 @@
+{
+  "name": "ziroom-scraper",
+  "version": "0.1.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jianguiqubaa/ziroom-scraper.git"
+  },
+  "keywords": [
+    "ziroom",
+    "scraper"
+  ],
+  "author": "ghost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jianguiqubaa/ziroom-scraper/issues"
+  },
+  "homepage": "https://github.com/jianguiqubaa/ziroom-scraper#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "fs-extra": "^0.30.0",
+    "mongodb": "^2.2.4"
+  }
+}

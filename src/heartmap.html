@@ -54,12 +54,6 @@
              }*/
         });
 
-        // heatmapData.forEach(h => {
-        //   h.count = Math.sqrt(h.count) * 10
-        // });
-        // heatmapData.forEach(h => {
-        //   h.count = Math.sqrt(h.count) * 10
-        // });
         heatmapData.sort((a,b) => b.count - a.count);
         var max = heatmapData[0]['count'];
         var min = heatmapData[heatmapData.length -1]['count'];

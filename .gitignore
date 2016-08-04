@@ -35,4 +35,5 @@ node_modules
 .DS_Store
 cache
 data
+backup
 settings.js

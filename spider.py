@@ -14,7 +14,7 @@ class Handler(BaseHandler):
     def on_start(self):
         self.crawl('http://www.ziroom.com/z/nl/z2.html?p=1', callback=self.index_page)
 
-    @config(age= 10 * 24 * 60 * 60)
+    @config(age= 24 * 60 * 60)
     def index_page(self, response):
         for each in response.doc('a[href^="http"]').items():
             if re.match('http://www.ziroom.com/z/vr/\w+', each.attr.href):
@@ -52,4 +52,3 @@ class Handler(BaseHandler):
             "steward": steward_code,
             "house_code": house_code
         }
-        
